@@ -1,6 +1,6 @@
 import pandas as pd   
-url = "https://github.com/robocrobe-web/python-/blob/main/student.csv"
-df = pd.read_csv(url) 
+ 
+df = pd.read_csv("student.csv") 
 
 df["total"] = df["Physics"] + df["Chemistry"] + df["Maths"] 
 
